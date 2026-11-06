@@ -14,7 +14,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f4f7f6;
+    background-color: #FF7F50;
     color: #333333;
     padding: 20px;
 }
@@ -76,4 +76,8 @@ a:hover {
 .btn:hover {
     background-color: #27ae60;
     text-decoration: none;
+}
+
+p {
+   color: darkred;
 }
