@@ -81,3 +81,41 @@ a:hover {
 p {
    color: darkred;
 }
+
+header {
+    background-color: #1a1a1a;
+    margin: -20px -20px 40px -20px; /* Counteracts body padding */
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.navbar a {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #2ecc71; /* Highlights green on hover */
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold !important;
+}
+
+.nav-links a {
+    margin-left: 20px;
+}
+
+/* Optional: Pushes your container down cleanly below the navbar */
+.container {
+    margin-top: 20px;
+}
